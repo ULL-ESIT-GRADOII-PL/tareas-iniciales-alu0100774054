@@ -3,7 +3,7 @@
 ---
 ###Erik Andreas Barreto de Vera alu0100774054
 
-Configuración de las herramientas y tecnologías a utilizar en la asignatura Sistemas y Tecnologías Webs.
+Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes
 
 * NodeJS
 * Express
