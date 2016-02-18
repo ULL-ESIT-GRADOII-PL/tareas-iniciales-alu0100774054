@@ -3,11 +3,9 @@
 ---
 ###Erik Andreas Barreto de Vera alu0100774054
 
-<<<<<<< HEAD
 Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes
 =======
 Configuración de las herramientas y tecnologías a utilizar en la Procesadores de Lenguajes
->>>>>>> gh-pages
 
 * NodeJS
 * Express
