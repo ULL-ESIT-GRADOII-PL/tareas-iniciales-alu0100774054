@@ -21,7 +21,7 @@ Este tutorial está hecho sobre una computadora con sistema operativo Mac Os X y
 ### Instalación de NodeJS y Express
 Lo primero que tenemos que hacer es dirigirnos a la página <https://nodejs.org> seguimos las instrucciones para descargar el paquete instalador,esperamos que finalice la descarga y lo instalamos, una vez instalado comprobamos que funciona *npm* 
 
-![](images/node) 
+![](images/node.png) 
 
 Si no ha habido ningún problema continuamos a la instalación de express, para ello en la misma terminal ejecutamos el siguiente comando
 ```
@@ -29,22 +29,22 @@ $ npm install express --save
 ```
 y deberá salir algo parecido en vuestra terminal
 
-![](images/express)
+![](images/express.png)
 
 ### Instalación del editor de texto Atom 
 Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos. Para ello nos dirigimos a <https://atom.io> para descargar el editor siguiendo las instrucciones de la página.
 
-![](images/atom)
+![](images/atom.png)
 
 ### Instalación de GitHub Desktop
 
 GitHub tiene una aplicación de escritorio multiplataforma que permite administrar los repositorios de una manera sencilla desde su interfaz. Para instalar la aplicación vamos a <https://desktop.github.com> y seguimos las instrucciones para descargar el instalador de la página.
 
-![](images/git1)
+![](images/git1.png)
 
 Una vez lo hayamos instalado nos pedirá si poseemos una cuenta de GitHub, en caso de serlo, introducimos los datos, en caso contrario, debemos crear una cuenta o bien desde la interfaz de la aplicación o bien vamos a la página <https://github.com/> y seguimos los pasos para introducir los datos de nuestra nueva cuenta, una vez hayamos terminado podremos usar nuestra aplicación de escritorio.
 
-![](images/git2)
+![](images/git2.png)
 
 ### Utilización de Cloud9
 
@@ -370,6 +370,14 @@ Underscores
 Es un editor de Markdown online que permite escribir contenido en formato Markdown en uno de sus paneles y previsualizar el resultado en otro panel, como características está que permite exportarlo en formato HTML o pdf y también guardarlo en servicios en la nube como son DropBox o Google Drive, GitHub, etc.
 
 ![](images/dillinger.png)
+
+## Utilización de Pandoc
+Pandoc es un traductor que te permite obtener ficheros en varios lenguajes, en nuestro caso lo usaremos para traducir de Markdown a HTML.
+
+Para instalarlo acudimos a la página oficial de pandoc y descargamos el paquete. Para usarlo, empleamos la siguiente sentencia en consola, indicando que el resultado no deseamos que lo muestre por consola, sino que lo guarde en el fichero indicado con la extensión html:
+```
+$ pandoc -f markdown -t html tutorial.md > tutorial.html
+```
 
 ## Utilización de gh-pages (GitHub Pages)
 
