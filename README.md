@@ -14,4 +14,4 @@ Configuración de las herramientas y tecnologías a utilizar en la Procesadores 
 
 [Página personal de prácticas](http://alu0100774054.github.io/)
 
-[Página de la práctica inicial](http://http://ull-esit-gradoii-pl.github.io/tareas-iniciales-alu0100774054/)
+[Página de la práctica inicial](http://ull-esit-gradoii-pl.github.io/tareas-iniciales-alu0100774054/)
