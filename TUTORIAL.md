@@ -16,12 +16,12 @@
 8. Utilización de gh-pages (GitHub Pages)
 9. Enlaces de interés
 ---
-### Aclaraciones 
+### Aclaraciones
 Este tutorial está hecho sobre una computadora con sistema operativo Mac Os X y la instalación se centra sobre esta plataforma.
 ### Instalación de NodeJS y Express
-Lo primero que tenemos que hacer es dirigirnos a la página <https://nodejs.org> seguimos las instrucciones para descargar el paquete instalador,esperamos que finalice la descarga y lo instalamos, una vez instalado comprobamos que funciona *npm* 
+Lo primero que tenemos que hacer es dirigirnos a la página <https://nodejs.org> seguimos las instrucciones para descargar el paquete instalador,esperamos que finalice la descarga y lo instalamos, una vez instalado comprobamos que funciona *npm*
 
-![](images/node) 
+![](images/node.png)
 
 Si no ha habido ningún problema continuamos a la instalación de express, para ello en la misma terminal ejecutamos el siguiente comando
 ```
@@ -29,22 +29,22 @@ $ npm install express --save
 ```
 y deberá salir algo parecido en vuestra terminal
 
-![](images/express)
+![](images/express.png)
 
-### Instalación del editor de texto Atom 
+### Instalación del editor de texto Atom
 Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos. Para ello nos dirigimos a <https://atom.io> para descargar el editor siguiendo las instrucciones de la página.
 
-![](images/atom)
+![](images/atom.png)
 
 ### Instalación de GitHub Desktop
 
 GitHub tiene una aplicación de escritorio multiplataforma que permite administrar los repositorios de una manera sencilla desde su interfaz. Para instalar la aplicación vamos a <https://desktop.github.com> y seguimos las instrucciones para descargar el instalador de la página.
 
-![](images/git1)
+![](images/git1.png)
 
 Una vez lo hayamos instalado nos pedirá si poseemos una cuenta de GitHub, en caso de serlo, introducimos los datos, en caso contrario, debemos crear una cuenta o bien desde la interfaz de la aplicación o bien vamos a la página <https://github.com/> y seguimos los pasos para introducir los datos de nuestra nueva cuenta, una vez hayamos terminado podremos usar nuestra aplicación de escritorio.
 
-![](images/git2)
+![](images/git2.png)
 
 ### Utilización de Cloud9
 
@@ -60,7 +60,7 @@ Antes de comenzar veamos...¿Que beneficios nos aporta?
 #### ¿Cómo acceder al entorno?
 Nos dirigimos a [Cloud 9 IDE](https://c9.io)
 
-![](images/c9.png) 
+![](images/c9.png)
 
 deberemos crearnos una cuenta si no tenemos ya, seguimos las instrucciones del formulario y una vez creado debe aparecernos algo como:
 
@@ -161,7 +161,7 @@ Strikethrough uses two tildes. Scratch this.
 ```
 1. First ordered list item
 2. Another item
-  * Unordered sub-list. 
+  * Unordered sub-list.
 1. Actual numbers don't matter, just that it's a number
   1. Ordered sub-list
 4. And another item.  
@@ -189,7 +189,7 @@ Strikethrough uses two tildes. Scratch this.
 ## Resultado
 1. First ordered list item
 2. Another item
-  * Unordered sub-list. 
+  * Unordered sub-list.
 1. Actual numbers don't matter, just that it's a number
   1. Ordered sub-list
 4. And another item.  
@@ -224,8 +224,8 @@ Strikethrough uses two tildes. Scratch this.
 
 Or leave it empty and use the [link text itself]
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -244,8 +244,8 @@ Some text to show that the reference links can follow later.
 
 Or leave it empty and use the [link text itself]
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -258,19 +258,19 @@ Some text to show that the reference links can follow later.
 ```
 Here's our logo (hover to see the title text):
 
-Inline-style: 
+Inline-style:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-Reference-style: 
+Reference-style:
 ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 ```
-Inline-style: 
+Inline-style:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-Reference-style: 
+Reference-style:
 ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
